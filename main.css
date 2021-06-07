@@ -62,8 +62,8 @@ header {
 .main-wrapper {
   padding-top: 65px;
   text-align: center;
-  height: 2000px;
-  background-color: royalblue;
+  height: 1000px;
+  background-color: #fff;
   margin: 0 auto;
 }
 
@@ -78,7 +78,7 @@ footer {
   font-size: 14px;
   width: 100%;
   text-align: center;
-  background-color: rgba(27, 155, 230, 0.7);
+  background-color: rgba(27, 155, 230, 1);
 }
 
 .footer-wrap p {
