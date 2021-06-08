@@ -90,6 +90,18 @@ header {
   text-align: center;
   background-color: rgba(128, 128, 128, 0.3);
   border-radius: 20px;
+  position: relative;
+}
+.svg-quote {
+  position: absolute;
+}
+.sq1 {
+  bottom: 5px;
+  right: 5px;
+}
+.sq2 {
+  top: 5px;
+  left: 5px;
 }
 
 .member-section {
@@ -147,6 +159,13 @@ p .material-icons {
 .text-wrapper p .material-icons {
   font-size: 14px;
   color: black;
+  margin-right: 4px;
+  /* padding-top: 20px; */
+}
+
+.about-text p .material-icons {
+  font-size: 14px;
+  color: rgb(27, 155, 230);
   margin-right: 4px;
   /* padding-top: 20px; */
 }
