@@ -11,6 +11,7 @@ header {
   left: 0;
   margin: 0 auto;
   font-size: 20px;
+  z-index: 5;
 }
 
 .header-logo a {
@@ -77,7 +78,7 @@ header {
 .member-section {
   height: 800px;
   padding-bottom: 80px;
-  background-color: #d2dae2;
+  /* background-color: #d2dae2; */
   text-align: center;
 }
 .member-section h1 {
@@ -90,7 +91,7 @@ header {
 
 .member {
   float: left;
-  background-color: white;
+  background-color: #d2dae2;
   margin: 0px 2px;
   width: 24%;
   border-radius: 2%;
