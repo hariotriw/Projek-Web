@@ -1,4 +1,7 @@
-body {
+body,
+h2,
+h3,
+p {
   margin: 0 auto;
 }
 /* Header */
@@ -64,15 +67,15 @@ header {
 /* Main wrapper */
 .container {
   width: 1170px;
-  padding: 0 15px;
+  padding: 55px 15px 0 15px;
   margin: 0 auto;
 }
 
 .main-wrapper {
   /* padding-top: 65px; */
-  padding: 60px 0 30px 0;
+  padding: 10px 0 30px 0;
   text-align: center;
-  min-height: 1000px;
+  /* min-height: 1000px; */
   background-color: #fff;
 }
 
@@ -84,8 +87,9 @@ header {
 
 .about-text {
   padding: 25px;
+  line-height: 25px;
+  font-size: 20px;
   margin: 0 auto;
-  color: black;
   width: 600px;
   text-align: center;
   background-color: rgba(128, 128, 128, 0.3);
@@ -104,9 +108,10 @@ header {
   left: 5px;
 }
 
+/* Member */
 .member-section {
-  height: 800px;
-  padding-bottom: 80px;
+  min-height: 600px;
+  padding-bottom: 60px;
   /* background-color: #d2dae2; */
   text-align: center;
 }
@@ -116,6 +121,11 @@ header {
   color: black;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.member-wrapper {
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .member {
@@ -128,27 +138,43 @@ header {
 }
 /* pembuatan text*/
 .text-wrapper {
+  margin: 0 auto;
   font-size: 15px;
-  /* color: #b3aeb5; */
+  min-height: 175px;
   color: black;
 }
 .gambar img {
-  padding-top: 15px;
+  padding-top: 30px;
   width: 150px;
   height: 150px;
-  transition: width 1s, height 1s, opacity 1s;
-  opacity: 0.8;
+  transition: width 1.5s, height 1.5s, opacity 1.5s;
+  opacity: 0.7;
 }
+
+.nama,
+.sosmed {
+  padding: 5px 10px;
+}
+
+.bio {
+  padding: 15px;
+  opacity: 0.8;
+  line-height: 20px;
+}
+
 /* pembuatan animasi*/
 
 .gambar img:hover {
-  width: 175px;
-  height: 175px;
+  width: 200px;
+  height: 200px;
   opacity: 1;
 }
 .gambar p {
   font-size: 30px;
 }
+/* End of member */
+
+/* Icon */
 
 p .material-icons {
   font-size: 20px;
@@ -169,6 +195,7 @@ p .material-icons {
   margin-right: 4px;
   /* padding-top: 20px; */
 }
+/* End of Icon */
 
 /* End of Main wrapper */
 /* Footer */
