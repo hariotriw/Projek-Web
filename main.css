@@ -10,6 +10,7 @@ header {
   top: 0;
   left: 0;
   margin: 0 auto;
+  font-size: 20px;
 }
 
 .header-logo a {
@@ -17,6 +18,8 @@ header {
   padding: 15px;
   color: white;
   text-decoration: none;
+}
+.header-logo a:hover {
 }
 
 .header-logo .material-icons {
@@ -55,8 +58,13 @@ header {
 
 /* Body */
 .container {
-  width: 95%;
+  width: 1170px;
   padding: 0 15px;
+  margin: 0 auto;
+}
+.lesson {
+  float: left;
+  width: 25%;
 }
 
 .main-wrapper {
@@ -64,18 +72,58 @@ header {
   text-align: center;
   height: 1000px;
   background-color: #fff;
-  margin: 0 auto;
+}
+.lesson {
+  float: left;
+  width: 25%;
+}
+.container {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #d2dae2;
+  text-align: center;
+}
+.container h1 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  color: #ff7979;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* pembuatan text*/
+.text {
+  font-size: 15px;
+  color: #b3aeb5;
+}
+.gambar img {
+  width: 200px;
+  height: 300px;
+  transition: width 2s, height 4s;
+}
+/* pembuatan animasi*/
+
+.gambar img:hover {
+  width: 250px;
+  height: 350px;
+}
+.gambar p {
+  font-size: 30px;
 }
 
 p .material-icons {
-  font-size: 14px;
+  font-size: 20px;
   color: red;
+  padding-top: 20px;
+}
+
+.footer-wrap p {
+  color: white;
+  font-size: 20px;
 }
 
 footer {
-  height: 50px;
-  margin: 0;
-  font-size: 14px;
+  height: 100px;
+  margin: 0 auto;
   width: 100%;
   text-align: center;
   background-color: rgba(27, 155, 230, 1);
