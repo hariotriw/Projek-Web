@@ -61,7 +61,7 @@ header {
 }
 /* Header - End */
 
-/* Body */
+/* Main wrapper */
 .container {
   width: 1170px;
   padding: 0 15px;
@@ -70,9 +70,26 @@ header {
 
 .main-wrapper {
   /* padding-top: 65px; */
+  padding: 60px 0 30px 0;
   text-align: center;
-  height: 1000px;
+  min-height: 1000px;
   background-color: #fff;
+}
+
+.about-wrapper {
+  min-height: 300px;
+  text-align: center;
+  color: black;
+}
+
+.about-text {
+  padding: 25px;
+  margin: 0 auto;
+  color: black;
+  width: 600px;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.3);
+  border-radius: 20px;
 }
 
 .member-section {
@@ -82,18 +99,19 @@ header {
   text-align: center;
 }
 .member-section h1 {
-  padding-top: 60px;
-  padding-bottom: 30px;
-  font-size: 40px;
-  color: #ff7979;
+  font-size: 30px;
+  text-shadow: #808080;
+  color: black;
+  font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .member {
   float: left;
   background-color: #d2dae2;
-  margin: 0px 2px;
-  width: 24%;
+  margin: 10px 2px;
+  /* width: 24%; */
+  width: 280px;
   border-radius: 2%;
 }
 /* pembuatan text*/
@@ -126,6 +144,16 @@ p .material-icons {
   padding-top: 20px;
 }
 
+.text-wrapper p .material-icons {
+  font-size: 14px;
+  color: black;
+  margin-right: 4px;
+  /* padding-top: 20px; */
+}
+
+/* End of Main wrapper */
+/* Footer */
+
 .footer-wrap p {
   color: white;
   font-size: 20px;
@@ -142,3 +170,4 @@ footer {
 .footer-wrap p {
   padding-top: 15px;
 }
+/* End of Footer */
