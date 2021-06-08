@@ -66,46 +66,54 @@ header {
   padding: 0 15px;
   margin: 0 auto;
 }
-.member {
-  float: left;
-  width: 25%;
-}
 
 .main-wrapper {
-  padding-top: 65px;
+  /* padding-top: 65px; */
   text-align: center;
   height: 1000px;
   background-color: #fff;
 }
 
-.container {
-  height: 500px;
+.member-section {
+  height: 800px;
   padding-bottom: 80px;
   background-color: #d2dae2;
   text-align: center;
 }
-.container h1 {
-  padding-top: 40px;
+.member-section h1 {
+  padding-top: 60px;
   padding-bottom: 30px;
   font-size: 40px;
   color: #ff7979;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.member {
+  float: left;
+  background-color: white;
+  margin: 0px 2px;
+  width: 24%;
+  border-radius: 2%;
+}
 /* pembuatan text*/
-.text {
+.text-wrapper {
   font-size: 15px;
-  color: #b3aeb5;
+  /* color: #b3aeb5; */
+  color: black;
 }
 .gambar img {
-  width: 200px;
-  height: 300px;
-  transition: width 2s, height 4s;
+  padding-top: 15px;
+  width: 150px;
+  height: 150px;
+  transition: width 1s, height 1s, opacity 1s;
+  opacity: 0.8;
 }
 /* pembuatan animasi*/
 
 .gambar img:hover {
-  width: 250px;
-  height: 350px;
+  width: 175px;
+  height: 175px;
+  opacity: 1;
 }
 .gambar p {
   font-size: 30px;
